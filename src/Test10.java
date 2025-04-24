@@ -14,7 +14,7 @@ public class Test10 {
         list.add("pramod2");
         list.add("pramod2");
 
-
+        System.out.println("-----------test1 branch-------------------");
 
         Map<String, Long> map= list.stream().collect(Collectors.groupingBy(Function.identity(),Collectors.counting()));
 
